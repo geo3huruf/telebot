@@ -15,9 +15,14 @@ $ bundle
 ```
 
 Or install it system-wide:
-
+```shell
+$ apt install bundle
+```
 ```shell
 $ gem install telegram-bot-ruby
+```
+```shell
+$ apt install ruby
 ```
 
 ## Usage
@@ -29,3 +34,8 @@ run bot
 ```shell
 $ ruby bot.rb
 ```
+
+# visit token my bot
+Added the method [setMyCommands](https://t.me/MyComand) for changing the list of the bot's commands through the Bot API instead of [@BotFather.](https://t.me/BotFather)
+
+[bot token](https://t.me/BotFather)
